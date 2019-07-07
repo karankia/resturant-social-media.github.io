@@ -1,0 +1,223 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/elements/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Restaurant</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+		<link rel="stylesheet" href="css/linearicons.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>
+		  <header id="header" id="home">
+		    <div class="container">
+		    	<div class="row align-items-center justify-content-between d-flex">
+			      <div id="logo">
+			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+			      </div>
+			      <nav id="nav-menu-container">
+			        <ul class="nav-menu">
+			          <li class="menu-active"><a href="index.html#home">Home</a></li>
+			          <li><a href="index.html#dish">Dish</a></li>
+			          <li><a href="index.html#chefs">Chefs</a></li>
+			          <li><a href="index.html#blog">Blog</a></li>
+			          <li><a href="index.html#contact">Contact</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
+						<li class="menu-has-children"><a href="">Sign Up</a>
+							<ul>
+								<li><a href="restaurants.html">Restaurants</a></li>
+								<li><a href="users.html">Users</a></li>
+							</ul>
+						</li>
+			        </ul>
+			      </nav><!-- #nav-menu-container -->
+		    	</div>
+		    </div>
+		  </header><!-- #header -->
+		  <div id="loginModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog modal-lg" role="content">
+				  <div class="modal-content">
+					  <div class="modal-header">
+						  <h4 class="modal-title">Login</h4>
+						  <button type="button" class="close" data-dismiss="modal">
+							  &times;
+						  </button>
+					  </div>
+					  <div class="modal-body">
+						  <form>
+							  <div class="form-row">
+								  <div class="form-group col-sm-4">
+									  <label class="sr-only" for="exampleInputEmail3">Email address</label>
+									  <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+								  </div>
+								  <div class="form-group col-sm-4">
+									  <label class="sr-only" for="exampleInputPassword3">Password</label>
+									  <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+								  </div>
+								  <div class="col-sm-auto">
+									  <div class="form-check">
+										  <input class="form-check-input" type="checkbox">
+										  <label class="form-check-label"> Remember me
+										  </label>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="form-row">
+								  <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+								  <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+							  </div>
+						  </form>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+			<section class="generic-banner relative">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 mx-auto">
+							<div class="card card-body">
+								<h3 class="text-center mb-4">Sign-up (Restaurant)</h3>
+								<div class="alert alert-danger">
+									<a class="close font-weight-light" data-dismiss="alert" href="#">×</a>Password is too short.
+								</div>
+								<fieldset>
+									<div class="form-group has-success">
+										<input class="form-control input-lg" placeholder="Restaurant Name" name="restaurant-name" type="text">
+									</div>
+									<div class="form-group has-error">
+										<input class="form-control input-lg" placeholder="E-mail Address" name="email" type="text">
+									</div>
+									<div class="form-group has-success">
+										<input class="form-control input-lg" placeholder="Password" name="password" value="" type="password">
+									</div>
+									<div class="form-group has-success">
+										<input class="form-control input-lg" placeholder="Confirm Password" name="password" value="" type="password">
+									</div>
+									<div class="form-group">
+										<select class="form-control input-lg">
+											<option selecterd="">Sequrity Question</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<input class="form-control input-lg" placeholder="Sequrity Answer" name="answer" value="" type="text">
+									</div>
+									<div class="checkbox">
+										<label class="small">
+											<input name="terms" type="checkbox">I have read and agree to the <a href="#">terms of service</a>
+										</label>
+									</div>
+									<input class="btn btn-lg btn-primary btn-block" value="Sign Me Up" type="submit">
+								</fieldset>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+
+		<!-- About Generic Start -->
+		<div class="main-wrapper">
+			<!-- start footer Area -->
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h4 class="text-white">About Us</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h4 class="text-white">Contact Us</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
+								</p>
+								<p class="number">
+									012-6532-568-9746 <br>
+									012-6532-569-9748
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-5  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h4 class="text-white">Newsletter</h4>
+								<p>You can trust us. we only send  offers, not a single spam.</p>
+								<div class="d-flex flex-row" id="mc_embed_signup">
+
+
+									  <form class="navbar-form" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+									    <div class="input-group add-on">
+									      	<input class="form-control" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
+											<div style="position: absolute; left: -5000px;">
+												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+											</div>
+									      <div class="input-group-btn">
+									        <button class="genric-btn primary circle arrow"><span class="lnr lnr-arrow-right"></span></button>
+									      </div>
+									    </div>
+									      <div class="info mt-20"></div>
+									  </form>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p class="footer-text m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						<div class="footer-social d-flex align-items-center">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->
+			<script src="node_modules/jquery/dist/jquery.js"></script>
+			<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+			<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+			<script src="js/easing.min.js"></script>
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/jquery.nice-select.min.js"></script>
+			<script src="js/parallax.min.js"></script>
+			<script src="js/mail-script.js"></script>
+			<script src="js/main.js"></script>
+		</div>
+		</body>
+	</html>
